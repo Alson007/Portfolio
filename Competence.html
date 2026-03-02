@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<htm lang="fr">
+
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personnal Portfolio website HTML CSS Only I Codehal</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+ </head>   
+
+ <body>
+    
+    <header class="header">
+        <a href="#" class="logo">Fabien.</a>
+
+              <div class="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <nav class="navbar">
+            <a href="index.html" class="active">Accueil</a>
+            <a href="about.html">À propos</a>
+            <a href="Education.html">Education</a>
+            <a href="Competence.html">Compétence</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- skills section design -->
+       <section class="skills" id="skills">
+         <h2 class="heading">Mes <span>Compétences</span></h2>
+
+         <div class="skills-row">
+            <div class="skills-column">
+               <h3 class="title">Coding skills</h3>
+
+               <div class="skills-box">
+                  <div class="skills-content">
+                     <div class="progress">
+                        <h3>HTML <span>60%</span></h3>
+                         <div class="bar"><span></span></div>
+                     </div>
+
+                      <div class="progress">
+                        <h3>CSS <span>40%</span></h3>
+                         <div class="bar"><span></span></div>
+                     </div>
+
+                      <div class="progress">
+                        <h3>C++ <span>55%</span></h3>
+                         <div class="bar"><span></span></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="skills-column">
+               <h3 class="title">Language</h3>
+
+               <div class="skills-box">
+                  <div class="skills-content">
+                     <div class="progress">
+                        <h3>MALAGASY <span>100%</span></h3>
+                         <div class="bar"><span></span></div>
+                     </div>
+
+                      <div class="progress">
+                        <h3>FRANÇAIS <span>70%</span></h3>
+                         <div class="bar"><span></span></div>
+                     </div>
+
+                      <div class="progress">
+                        <h3>ANGLAIS <span>80%</span></h3>
+                         <div class="bar"><span></span></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+       </section>
+
+  <script>
+      const menuToggle = document.querySelector(".menu-toggle");
+      const navbar = document.querySelector(".navbar");
+
+      menuToggle.addEventListener("click", () => {
+        navbar.classList.toggle("active");
+      });
+  </script>
+</body>
+</html>

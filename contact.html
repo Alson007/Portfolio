@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<htm lang="fr">
+
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personnal Portfolio website HTML CSS Only I Codehal</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+ </head>   
+
+ <body>
+    
+    <header class="header">
+        <a href="#" class="logo">Fabien.</a>
+
+              <div class="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <nav class="navbar">
+            <a href="index.html" class="active">Accueil</a>
+            <a href="about.html">À propos</a>
+            <a href="Education.html">Education</a>
+            <a href="Competence.html">Compétence</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+           <!-- contact section design -->
+        <section class="contact" id="contact">
+         <h2 class="heading">Contactez-<span>Moi</span></h2>
+
+         <form action="#">
+            <div class="input-box">
+               <div class="input-field">
+                  <input type="text" placeholder="Full name" required>
+                  <span class="focus"></span>
+               </div>
+
+                <div class="input-field">
+                  <input type="text" placeholder="Email Adress" required>
+                  <span class="focus"></span>
+               </div>
+            </div>
+
+            <div class="input-box">
+               <div class="input-field">
+                  <input type="number" placeholder="Mobile number" required>
+                  <span class="focus"></span>
+               </div>
+
+                <div class="input-field">
+                  <input type="text" placeholder="Email Subject" required>
+                  <span class="focus"></span>
+               </div>
+            </div>
+
+            <div class="textarea-field">
+               <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+               <span class="focus"></span>
+            </div>
+
+            <div class="btn-box btns">
+               <button type="submit" class="btn">Submit</button>
+            </div>
+         </form>
+        </section>
+
+             <script>
+    const menuToggle = document.querySelector(".menu-toggle");
+    const navbar = document.querySelector(".navbar");
+
+    menuToggle.addEventListener("click", () => {
+        navbar.classList.toggle("active");
+    });
+</script>
+
+        <!-- footer design -->
+      <footer class="footer">
+         <div class="footer-text">
+            <p>Copyright &copy; 2026 by Alson Fabien | All Right reseved.</p>
+         </div>
+      </footer>
+</body>
+</html>
