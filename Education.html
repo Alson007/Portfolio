@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<htm lang="fr">
+
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personnal Portfolio website HTML CSS Only I Codehal</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+ </head>   
+
+ <body>
+    
+    <header class="header">
+        <a href="#" class="logo">Fabien.</a>
+
+              <div class="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <nav class="navbar">
+            <a href="index.html" class="active">Accueil</a>
+            <a href="about.html">À propos</a>
+            <a href="Education.html">Education</a>
+            <a href="Competence.html">Compétence</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+      <!-- Education section design -->
+      <section class="education" id="education">
+         <h2 class="heading">Mon <span>parcours</span></h2>
+
+         <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Education</h3>
+
+                <div class="education-box">
+                  <div class="education-content">
+                     <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i>2025-2026</div>
+                        <h3>Licence en première année en Développenment d'Application Internet-Intranet à l'Ecole de Management et d'Innovation Technologique ( EMIT Fianaratsoa ).</h3>
+                     </div>
+                  </div>
+
+                     <div class="education-content">
+                     <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i>2024-2025</div>
+                        <h3>Licence en première année en Mathématiques Informatique à Université d'Antananarivo - Faculté des science.</h3>
+                     </div>
+                  </div>
+
+                     <div class="education-content">
+                     <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i>2023-2024</div>
+                        <h3>BACC Lauréat - Lycée d’enseignement génerale à Tsiroanomandidy - Série S.</h3>
+                     </div>
+                  </div>
+
+                     <div class="education-content">
+                     <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i>2019-2020</div>
+                        <h3>BEPC Général et Technique - Ecole Privée Henintsoa à Tsiroanomandidy - Option B/Mécanique auto.</h3>
+                     </div>
+                  </div>
+                </div>
+            </div>
+
+          <div class="education-column">
+                <h3 class="title">Expérience</h3>
+
+             <div class="education-box">
+                  <div class="education-content">
+                     <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i>Mai 2024</div>
+                        <h3>Formation Télétravail : Association des jeunes animateurs de Madagascar.</h3>
+                     </div>
+                  </div>
+
+                     <div class="education-content">
+                     <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i>Avril 2024</div>
+                        <h3>Formation Développement Personnelle : Excel Consulting Tsiroanomandidy.</h3>
+                     </div>
+                  </div>
+                </div>
+            </div>
+         </div>
+
+                   <div class="education-column">
+                <h3 class="title">Loisirs et divers</h3>
+
+             <div class="education-box">
+                  <div class="education-content">
+                     <div class="content">
+                       <div class="year"><i class='bx bxs-calendar'></i>Sports</div>
+                        <h3>Basket-ball🏀, Foot-ball⚽;</h3>
+                        <h3>Karaté Do: Style Shotokan 🥋.</h3>
+                     </div>
+                  </div>
+
+                     <div class="education-content">
+                     <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i>Scout</div>
+                        <h3>Tily Madagascar ⚜️.</h3>
+                     </div>
+                  </div>
+
+                  <div class="education-content">
+                     <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i>Vice-président</div>
+                        <h3>Vice-Président : AJUDIT(Association des Jeunes Universitaires du District Tsiroanomandidy).</h3>
+                     </div>
+                  </div>
+                </div>
+            </div>
+         </div>
+
+
+      </section>
+
+         <script>
+    const menuToggle = document.querySelector(".menu-toggle");
+    const navbar = document.querySelector(".navbar");
+
+    menuToggle.addEventListener("click", () => {
+        navbar.classList.toggle("active");
+    });
+</script>
+</body>
+</html>
